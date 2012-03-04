@@ -13,7 +13,7 @@ import numpy as np
 
 import cuda
 import cublas
-import cula
+#import cula
 import misc
 
 from misc import init

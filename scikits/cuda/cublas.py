@@ -15,7 +15,7 @@ import numpy as np
 
 from string import Template
 
-import cuda
+import cudart as cuda
 
 if sys.platform == 'linux2':
     _libcublas_libname_list = ['libcublas.so', 'libcublas.so.3',
